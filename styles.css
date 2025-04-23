@@ -53,7 +53,6 @@ nav ul li {
 
 .container {
     max-width: 900px;
-    padding: 2em;
     margin: 0 auto;
     text-align: center;
 }
@@ -153,6 +152,8 @@ h1 {
 
 h1,
 h2 {
+    font-family: "Arial Black", sans-serif;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
     text-align: center;
     color: #0c225d;
