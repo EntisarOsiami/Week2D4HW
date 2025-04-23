@@ -55,7 +55,8 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-h1{
+
+h1 {
     margin-bottom: 0.5em;
     font-size: 3em;
     color: #fff;
@@ -63,6 +64,7 @@ h1{
     font-weight: bold;
     letter-spacing: 2px;
 }
+
 main {
     padding: 1em;
     margin-top: 2em;
@@ -73,6 +75,7 @@ ul {
     padding: 0;
     margin: 0;
 }
+
 
 footer {
     background-color: rgba(0, 51, 102, 0.8);
@@ -97,37 +100,115 @@ h2 {
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 0.5em;
+    text-align: center;
+}
+
 .species-gallery {
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-  }
   
-  .species-card {
+}
+
+.species-card {
     display: inline-block;
     vertical-align: top;
-    width: 30%;
+    width: 20%;
     margin: 0.5em;
     padding: 1em;
     background: white;
     border: 1px solid #ccc;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    transition: transform 0.2s;
-  }
-  
-  .species-card img {
-    max-width: 100%;
-    height: auto;
+}
+
+
+.species-card img {
+    max-width: 90%;
+    height: 90%;
     display: block;
     margin: 0 auto 1em;
     margin-bottom: 0.5em;
-  }
+}
 
-  section{
+.species-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+
+}
+
+.species-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.species-card p {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+section {
     margin-top: 2em;
     padding: 1em;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #004466;
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #006699;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 2em auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+    color: #000;
+}
+
+label {
+    font-weight: bold;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+}
