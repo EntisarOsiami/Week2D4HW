@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join the Ocean Exploration Mission</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="ocean-background">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover Marine Life</a></li>
+          <li><a href="join.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Join the Ocean Exploration Mission</h1>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="age">Age:</label><br />
+        <input type="text" id="age" name="age" required /><br /><br />
+
+        <label>Gender:</label><br />
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="Female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="Other" />
+        <label for="other">Other</label><br /><br />
+
+        <label>Do you want to be a diver?</label><br />
+        <input type="radio" id="yes" name="diver" value="Yes" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" id="no" name="diver" value="No" />
+        <label for="no">No</label><br /><br />
+
+        <label for="interest">Area of Interest:</label><br />
+        <select id="interest" name="interest">
+          <option value="oceans">Oceans</option>
+          <option value="marine_environment">Marine Environment</option>
+          <option value="marine_life">Marine Life</option>
+        </select><br /><br />
+
+        <label for="why">Why do you want to join?</label><br />
+        <textarea id="why" name="why" rows="5" cols="40" required></textarea><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2025 Ocean Exploration Team. All rights reserved.</p> </footer> 
+  </body>
+</html>
+  
